@@ -35,8 +35,41 @@ __PROCEDURE:__
 6.Verify the generated results
 
 __PROGRAM:__
+```c
+
+
+
+clc;
+clear;
+
+// ----- INPUT SIGNALS -----
+x = [1 2 3 4 5];
+y = [2 3 4 5 6];
+
+// ----- MEAN -----
+mean_x = mean(x);
+mean_y = mean(y);
+
+// ----- VARIANCE -----
+var_x = variance(x);      // by default, Scilab uses unbiased estimation (N-1)
+var_y = variance(y);
+
+// ----- CROSS CORRELATION -----
+cross_xy = xcorr(x, y);   // full cross-correlation
+
+// ----- DISPLAY RESULTS -----
+disp("Mean of x = " + string(mean_x));
+disp("Mean of y = " + string(mean_y));
+
+disp("Variance of x = " + string(var_x));
+disp("Variance of y = " + string(var_y));
+
+disp("Cross-correlation (x,y):");
+disp(cross_xy);
+```
 
 __OUTPUT GRAPH:__
 
-__RESULT:__
 
+__RESULT:__
+Thus the mean and variance ,cross correlation is verified using SCILAB .
