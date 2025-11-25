@@ -72,4 +72,5 @@ __OUTPUT GRAPH:__
 
 
 __RESULT:__
+
 Thus the mean and variance ,cross correlation is verified using SCILAB .
