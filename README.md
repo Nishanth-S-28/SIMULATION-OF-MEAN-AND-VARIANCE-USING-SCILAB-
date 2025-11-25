@@ -70,6 +70,9 @@ disp(cross_xy);
 
 __OUTPUT GRAPH:__
 
+![IMG_20251125_125223](https://github.com/user-attachments/assets/080af26d-7414-483a-90e3-da4e82e5da4a)
+
+
 
 __RESULT:__
 
